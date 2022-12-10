@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/index.css" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <img
+            src="../assets/png-transparent-logo-contracting-photography-logo-symbol.png"
+            width="45"
+            height="35"
+            alt=""
+            srcset=""
+          />
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Accueil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="carousel">
+        <div
+          id="carouselHamza"
+          class="carousel slide"
+          data-bs-ride="true"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselHamza"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselHamza"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselHamza"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="../assets/photo1.jfif"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../assets/photo2.jfif"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/photo3.jpg" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselHamza" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselHamza" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="equipe d-none d-lg-block d-xl-block mt-4 px-4">
+        <h3>Notre equipe</h3>
+        <div class="row">
+            <div class="col-sm-4 ">
+                <div class="card w-100 text-center " >
+                    <img src="../assets/profile.png" style="width: 10rem;height: 10rem;" class="card-img-top mx-auto d-block" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card w-100 text-center " >
+                    <img src="../assets/profile.png" style="width: 10rem;height: 10rem;" class="card-img-top mx-auto d-block" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card w-100 text-center " >
+                    <img src="../assets/profile.png" style="width: 10rem;height: 10rem;" class="card-img-top mx-auto d-block" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+       
+      </div>
+
+      <div class="cards d-flex flex-column mx-auto mt-4 px-4">
+        <div class="d-md-none d-lg-block">
+          <div class="row">
+            <div class="col-sm-12 col-lg-4">
+              <div class="card mt-2 w-100">
+                <img
+                  src="../assets/photo1.jfif"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Photo 1</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Autem quo veniam provident eligendi fugiat minus, itaque
+                    totam. Ratione hic illo voluptatem nostrum amet soluta modi
+                    nulla, quo officiis doloremque distinctio?
+                  </p>
+                  <a href="#" class="btn btn-primary">Ex savoire plus</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+              <div class="card mt-2 w-100">
+                <img
+                  src="../assets/photo2.jfif"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Photo 2</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Consequuntur, debitis similique! Itaque, iure quam. Rerum
+                    quaerat rem molestias quasi voluptas provident ipsum,
+                    aliquid optio quam, aperiam voluptate vero excepturi illo.
+                  </p>
+                  <a href="#" class="btn btn-primary">Ex savoire plus</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+              <div class="card mt-2 w-100">
+                <img
+                  src="../assets/photo3.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Photo 3</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Nobis at architecto officiis odio sed aliquid neque ullam
+                    natus maiores laboriosam, consectetur, similique mollitia
+                    repellendus repudiandae. Ut reiciendis velit autem ex.
+                  </p>
+                  <a href="#" class="btn btn-primary">Ex savoire plus</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-none d-md-block d-lg-none">
+          <div class="row">
+            <div class="col-sm-12 col-lg-4">
+                <div class="card mb-3 w-100" >
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="../assets/photo1.jfif" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Photo 1</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <a href="#" class="btn btn-primary">Voir plus</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+                <div class="card mb-3  w-100" >
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="../assets/photo2.jfif" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Photo 2</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <a href="#" class="btn btn-primary">Voir plus</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+                <div class="card mb-3 w-100" >
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="../assets/photo3.jpg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Photo 3</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <a href="#" class="btn btn-primary">Voir plus</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="row">
+        <div class="col-sm-12 col-lg-6">
+          <div class="map mx-4 mt-4 border">
+            <div
+              id="map-container-google-1"
+              class="z-depth-1-half map-container w-100"
+            >
+              <iframe
+                class="w-100"
+                src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-6">
+          <section class="mb-4 mx-4 mt-4 border">
+            <div class="row">
+              <div class="col-sm-6 col-md-9 mb-md-0 mb-5 mt-4">
+                <form
+                  id="contact-form"
+                  name="contact-form"
+                  action="mail.php"
+                  method="POST"
+                >
+                  <div class="row">
+                    <div class="col-md-12 mt-2">
+                      <div class="md-form mb-0 d-flex">
+                        <i class="fa fa-phone px-2" aria-hidden="true"></i>
+
+                        <input
+                          type="text"
+                          id="name"
+                          name="name"
+                          class="form-control mx-4"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="col-md-12 mt-2">
+                      <div class="md-form mb-0 d-flex">
+                        <i class="fa fa-envelope-o px-2" aria-hidden="true"></i>
+
+                        <input
+                          type="text"
+                          id="email"
+                          name="email"
+                          class="form-control mx-4"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-12 mt-2">
+                      <div class="md-form d-flex">
+                        <i class="fa fa-comment-o px-2" aria-hidden="true"></i>
+
+                        <textarea
+                          type="text"
+                          id="message"
+                          name="message"
+                          rows="2"
+                          class="form-control md-textarea mx-4"
+                        ></textarea>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+
+                <div class="text-center text-md-left">
+                  <a
+                    class="btn btn-primary"
+                    onclick="document.getElementById('contact-form').submit();"
+                    >Send</a
+                  >
+                </div>
+                <div class="status"></div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script>  
+        function Map123() {  
+        var mapOptions = {  
+            center:new google.maps.LatLng(51.508742,-0.120850),  
+            zoom: 10,  
+            mapTypeId: google.maps.MapTypeId.HYBRID  
+        }  
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);  
+        }  
+        </script>  
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=Map123"></script>  
+        
+  </body>
+</html>
